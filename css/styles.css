@@ -1,0 +1,45 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+/*Normalize*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 62.5%;
+}
+body {
+    font-family: 'macondo';
+    min-height: 100%;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #2b2b2b; 
+}
+img {
+    width: 100%;
+}
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+header .header__img {
+    max-width: 120px;
+}
+header nav .menu {
+    display: flex;
+    gap: 2rem;
+}
+.menu .menu__link {
+    font-size: 2em;
+}
+.menu__item a:hover{
+    border-bottom: 5px solid #2980b9;
+}

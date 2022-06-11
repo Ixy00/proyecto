@@ -77,6 +77,14 @@ header nav .menu {
     color: black;
     font-size: 1.2em;
 }
+.box__img {
+    transition: transform .6s;
+}
+
+.box__img:hover {
+    transform: scale(1.1);
+
+}
 /* segundo cuerpo */
 .info {
     flex-direction: row;
@@ -89,6 +97,7 @@ header nav .menu {
 }
 .info__img {
     flex: 1 1 50%;
+    transform: skewX(10deg);
 }
 .box1 {
     display: flex;
@@ -113,10 +122,14 @@ header nav .menu {
     flex-direction: column;
     flex: 1 1 clamp(580px, 50%, 740px);
 }
+.info__img1 {
+    flex: 1 1 50%;
+    transition: transform .6s;
+}
+.info__img1:hover {
+    transform: rotate(10deg);
 
-
-
-
+}
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;

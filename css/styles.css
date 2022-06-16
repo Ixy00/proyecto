@@ -24,25 +24,9 @@ a {
 img {
     width: 100%;
 }
-/* header */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2rem 0;
-}
-header .header__img {
-    max-width: 120px;
-}
-header nav .menu {
-    display: flex;
-    gap: 2rem;
-}
-.menu .menu__link {
-    font-size: 2em;
-}
-.menu__item a:hover{
-    border-bottom: 5px solid #2980b9;
+.carousel {
+    max-width: 500px;
+    margin: 0 auto;
 }
 /* main*/
 .container {
@@ -51,20 +35,6 @@ header nav .menu {
     margin-top: 2rem;
 }
 /* cuerpo */
-.cards {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.box {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    flex: 1 1 clamp(300px, 30%, 400px);
-    padding: 15px;
-}
 .box__titulo {
     color: goldenrod;
     font-size: 1.7em;
@@ -76,14 +46,6 @@ header nav .menu {
 .box__text {
     color: black;
     font-size: 1.2em;
-}
-.box__img {
-    transition: transform .6s;
-}
-
-.box__img:hover {
-    transform: scale(1.1);
-
 }
 /* segundo cuerpo */
 .info {
@@ -129,6 +91,27 @@ header nav .menu {
 .info__img1:hover {
     transform: rotate(10deg);
 
+}
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0;
+    /* background-color:#adb5bd; */
+}
+header .header__img {
+    max-width: 150px;
+}
+header nav .menu {
+    display: flex;
+    gap: 2rem;
+}
+.menu .menu__link {
+    font-size: 2em;
+}
+.menu__item a:hover{
+    border-bottom: 5px solid #2980b9;
 }
 /* Tabla */
 .form-registro{
@@ -179,13 +162,17 @@ header nav .menu {
     margin: 16px 0;
     font-size: 16px;
 }
+.col-md-6 {
+    max-width: 550px;
+    margin: 0 auto;
+}
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
         gap: 1.8rem;
     }
     .menu .menu__link {
-        font-size: 20px; 
+        font-size: 15px; 
     } 
     .form-registro {
         margin-top: 0;

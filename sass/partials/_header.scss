@@ -1,0 +1,27 @@
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+
+    .header__img {
+        max-width: 120px;
+    }
+
+    nav .menu {
+        display: flex;
+        gap: 2rem;
+
+        .menu__link {
+            font-size: 2em;
+            &:hover{
+                border-bottom: 5px solid #2980b9;
+        }
+    }
+    }
+}
+    
+
+
+

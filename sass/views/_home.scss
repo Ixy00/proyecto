@@ -15,18 +15,18 @@
         padding: 15px;
 
         &__titulo {
-            color: goldenrod;
-            font-size: 1.7em;
+            color: $primary-title;
+            font-size: $text-medium;
         }
 
         &__subtitulo {
-            color: rgb(212, 156, 250);
-            font-size: 1.4em;
+            color: $secondary-subtitle;
+            font-size: $text-base;
         }
 
         &__text {
-            color: black;
-            font-size: 1.2em;
+            color: $text-color;
+            font-size: $text-small;
         }
 
         &__img {

@@ -1,4 +1,8 @@
 /* MISC*/
+/* Color */
+/* Espacios */
+/* font-family */
+/* font-sizes */
 /*Normalize*/
 * {
   margin: 0;
@@ -9,7 +13,7 @@ html {
   height: 62.5%; }
 
 body {
-  font-family: 'macondo';
+  font-family: "macondo";
   min-height: 100%; }
 
 ul {
@@ -34,7 +38,7 @@ img {
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
-    gap: 1.8rem; }
+    gap: 1.5rem; }
   .menu .menu__link {
     font-size: 20px; }
   .form-registro {
@@ -88,13 +92,13 @@ header {
     padding: 15px; }
     .cards .box__titulo {
       color: goldenrod;
-      font-size: 1.7em; }
+      font-size: 2.2em; }
     .cards .box__subtitulo {
       color: #d49cfa;
-      font-size: 1.4em; }
+      font-size: 1.6em; }
     .cards .box__text {
       color: black;
-      font-size: 1.2em; }
+      font-size: 1.4em; }
     .cards .box__img {
       transition: transform .6s; }
       .cards .box__img:hover {

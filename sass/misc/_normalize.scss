@@ -8,7 +8,7 @@ html {
     height: 62.5%;
 }
 body {
-    font-family: 'macondo';
+    font-family: $font-principal;
     min-height: 100%;
 }
 ul {
@@ -28,12 +28,12 @@ img {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: $small;
 }
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
-        gap: 1.8rem;
+        gap: $xsmall;
     }
     .menu .menu__link {
         font-size: 20px; 

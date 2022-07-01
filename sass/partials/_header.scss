@@ -1,8 +1,6 @@
 /* Header */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    @include flex(center,space-around, stretch, 0)
     padding: 2rem 0;
 
     .header__img {
@@ -10,8 +8,8 @@ header {
     }
 
     nav .menu {
-        display: flex;
-        gap: 2rem;
+        @include flex(stretch,flex-start, stretch, 0)
+        gap: $small;
 
         .menu__link {
             font-size: 2em;

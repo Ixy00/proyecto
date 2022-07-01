@@ -1,3 +1,7 @@
+/* Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
 /* MISC*/
 
 @import './misc/variables';
@@ -16,3 +20,7 @@
 @import './views/fosiles';
 @import './views/acuaticos';
 @import './views/hervivoros';
+
+/* @Media */
+
+@import './misc/@media';

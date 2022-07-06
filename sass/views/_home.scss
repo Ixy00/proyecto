@@ -3,14 +3,15 @@
 .cards {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: $xxsmall;
     justify-content: center;
     flex-wrap: wrap;
+
 
     .box {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: $xxsmall;
         flex: 1 1 clamp(300px, 30%, 400px);
         padding: 15px;
 
@@ -53,18 +54,17 @@
 
     &__img {
         flex: 1 1 50%;
-        transform: skewX(10deg);
     }
 
     &__titulo {
-        font-size: 1.7em;
-        color: black;
+        font-size: $text-medium;
+        color: $primary-title;
         margin: 2%;
     }
 
     &__text {
-        color: black;
-        font-size: 1.2em;
+        color: $text-color;
+        font-size: $text-small;
         font-weight: 300;
         margin: 2%; 
     }
@@ -88,7 +88,7 @@
     .box1 {
         display: flex;
         flex-direction: column;
-        gap: 2.4rem;
+        gap: $medium;
         flex: 1 1 clamp(580px, 50%, 740px);
     }
    

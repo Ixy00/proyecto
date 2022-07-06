@@ -1,0 +1,137 @@
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 3% 0;
+
+        .header__img {
+            max-width: 80px;
+        }
+    
+        nav .menu {
+            gap: $small;
+    
+            .menu__link {
+                font-size: $text-small;
+                &:hover{
+                    border-bottom: 5px solid #2980b9;
+            }
+        }
+        }
+
+        .cards {
+            
+            .box {
+    
+                &__titulo {
+                    color: $primary-title;
+                    font-size: $text-xlarge;
+                }
+        
+                &__subtitulo {
+                    color: $secondary-subtitle;
+                    font-size: $text-xbase;
+                }
+        
+                &__text {
+                    color: $text-color;
+                    font-size: $text-xsmall;
+                }
+        
+                &__img {
+                    transition: transform .6s;
+        
+                    &:hover {
+                        transform: scale(1.1);
+                    
+                    }
+                }
+            }
+        
+        }
+    }
+        
+
+}
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 3% 0;
+
+        .header__img {
+            max-width: 80px;
+        }
+    
+        nav .menu {
+            display: flex;
+            gap: $xsmall;
+    
+            .menu__link {
+                font-size: $text-xsmall;
+                &:hover{
+                    border-bottom: 5px solid #2980b9;
+            }
+        }
+        }
+    }
+
+    /* cuerpo */
+
+    .cards {
+            
+        .box {
+
+            &__titulo {
+                color: $primary-title;
+                font-size:$text-xmedium;
+            }
+    
+            &__subtitulo {
+                color: $secondary-subtitle;
+                font-size: $text-xbase;
+            }
+    
+            &__text {
+                color: $text-color;
+                font-size: $text-xsmall;
+            }
+    
+            &__img {
+                transition: transform .6s;
+    
+                &:hover {
+                    transform: scale(1.1);
+                
+                }
+            }
+        }
+    
+    }
+
+    /* segundo cuerpo */
+
+    .info {
+    
+        &__titulo {
+            font-size: $text-xmedium;
+            color: $primary-title;
+        }
+
+        &__text {
+         color: $text-color;
+            font-size: $text-xsmall;
+        
+        }
+
+        .box1 {
+         gap: $medium;
+        }
+ 
+    }
+
+    .form-registro{
+        width: 340px;
+        
+    }
+  
+
+}

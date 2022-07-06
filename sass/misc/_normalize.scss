@@ -10,6 +10,8 @@ html {
 body {
     font-family: $font-principal;
     min-height: 100%;
+    /* background-color: #9798a7a4; */
+    
 }
 ul {
     list-style-type: none;
@@ -29,37 +31,4 @@ img {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: $small;
-}
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: $xsmall;
-    }
-    .menu .menu__link {
-        font-size: 20px; 
-    } 
-    .form-registro {
-        margin-top: 0;
-    }
-    .box__titulo {
-        color: goldenrod;
-        font-size: 2em;
-    }
-    .box__subtitulo {
-        color: rgb(212, 156, 250);
-        font-size: 0.8em;
-    }
-    .box__text {
-        color: black;
-        font-size: 1em;
-    }
-    .info__titulo {
-        font-size: 2em;
-        color: black;
-    }
-    .info__text {
-        color: black;
-        font-size: 1em;
-        
-    }
 }
